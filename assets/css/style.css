@@ -1,0 +1,536 @@
+*{
+  margin: 0;
+  padding: 0;
+   font-family: 'Gilda Display', serif;
+}
+
+.card-img-top{
+    background-color: rgba(0, 0, 0, 0.7) !important;
+}
+.abcd .card-img-top{
+    height: 300px
+}
+.abcd .card{
+  box-shadow: 0px 4px 8px 0px rgba(0,0,0,0.2), 0px 6px 20px 0px rgba(0,0,0,0.19);
+}
+.text-red{
+  color: #e8491d;
+}
+.navbar{
+  background-color: #35424a;
+  color: #ffffff;
+  min-height: 70px;
+  border-bottom: #e8491d 3px solid;
+}
+.top-header{
+  position: absolute;
+    right: 0;
+    padding: 0px 25px 50px 0px;
+}
+.top-header .nav-item{
+  margin-right: 5px;
+  width: 88%;
+}
+.search{
+  font-size: 18px;
+  padding:10px;
+  width:300px !important;
+  border: none;
+}
+.form-inline{
+  position: absolute;
+  left: 25%;
+}
+.search_logo{
+  padding: .7rem .8rem .8rem .8rem!important;
+    position: absolute;
+    border: none;
+    margin-left: 298px;
+}
+.abcd .card-body{
+  height: 120px;
+
+}
+.carousel-inner{
+  height: 500px;
+}
+.submit-property-one .bg-2{
+  height: 400px;
+}
+.carousel-control-prev, .carousel-control-next{
+      background: #1f1b1b;
+    border-radius: 50%;
+    height: 50px;
+    width: 50px;
+    top: 50%;
+}
+.b{
+        bottom: -11px;
+    width: 240px;
+    text-align: center;
+    background: #7d8284;
+    height: 86px;
+    position: absolute;
+    margin: 50px;
+    /* left: -14px; */
+    right: -27px;
+    color: white;
+}
+.c{
+    font-size: 20px;
+    font-weight: bold;
+    padding: 10px 0 0 15px;
+    float: left;
+}
+.aa{
+  width: 240px;
+    height: 200px;
+    text-align: center;
+    margin-bottom: 125px;
+}
+.address{
+  padding: 0px 0px 13px 16px;
+    width: 200px;
+    float: left;
+    text-align: left;
+    font-size: 14px;
+}
+.price{
+    border: none;
+      border-radius: .25rem 0;
+      
+    background: orangered;
+    color: white;
+    font-size: 18px;
+    width: 90px;
+    position: absolute;
+    bottom: 0px;
+    right: 0;
+    text-align: center;
+}
+.type{
+        border: none;
+    padding: 5px 15px;
+    background: transparent;
+    color: red;
+    position: absolute;
+    bottom: 120px;
+    right: 0;
+    font-weight: bold;
+}
+.col-lg-3 .card{
+      margin-bottom: 16px;
+      width: 17rem;
+      padding: 7px;
+      border: none;
+}
+
+.col-lg-3 .card .card-body{
+  background: #e9ecef;
+}
+.container-fluid .card-body{
+  /*background: #e9ecef;*/
+  height: 122px;
+}
+.context-dark, .bg-gray-dark, .bg-primary {
+    color: rgba(255, 255, 255, 0.8);
+}
+
+.footer-classic a, .footer-classic a:focus, .footer-classic a:active {
+    color: #ffffff;
+}
+.nav-list li {
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.nav-list li a:hover:before {
+    margin-left: 0;
+    opacity: 1;
+    visibility: visible;
+}
+
+ul, ol {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+.category-section-card__img-overlay:hover{
+  color: orangered;
+}
+.mptCard{
+  width: 18rem;
+}
+.social-inner {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    padding: 23px;
+    font: 900 13px/1 "Lato", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    text-transform: uppercase;
+    color: rgba(255, 255, 255, 0.5);
+}
+.social-container .col {
+    border: 1px solid rgba(255, 255, 255, 0.1);
+}
+.nav-list li a:before {
+    content: "\f05a";
+    font: 400 21px/1 "FontAwesome";
+    color: #fff;
+    display: inline-block;
+    vertical-align: baseline;
+    margin-left: -28px;
+    margin-right: 7px;
+    opacity: 0;
+    visibility: hidden;
+    transition: .22s ease;
+}
+.categories-img{
+  width: 320px;
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3));
+  background-color: rgba(0, 0, 0, 0.5);
+  background-size: cover;
+  background-position: center;
+  height: 200px;
+
+}
+.bg-black-50{
+  padding-bottom: 20px !important;
+
+}
+.category-section-card{
+  border-radius: 0;
+    border: none;
+    cursor: pointer;
+}
+.category-section-card__img-overlay {
+    position: absolute;
+    top: 50%;
+    width: 320px;
+    font-weight: bold;
+    font-size: 18px;
+    text-align: center;
+    padding: 10px;
+    -webkit-transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+.pl-125{
+  padding-left: 45px;;
+}
+.bg-sldier{
+  background: url(../assets/img/slider3.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.topnav{
+   margin-right: 150px;
+  text-transform: uppercase;
+  padding-top: 38px;
+}
+.bg-1{
+  width:100%;
+  color: #b3b6bb;
+  background-color: rgba(0, 0, 0, 0.7)
+}
+.bg-2{
+  opacity: 0.3;
+  width:100%;
+  height:500px;
+  /*background-size: cover;*/
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-blend-mode: darken;
+  background-position:50% 50% ;
+
+}
+.navbar-dark .navbar-nav .active>.nav-link{
+  color: #e8491d;
+}
+.navbar-dark .navbar-nav .nav-link:hover{
+  color: #e8491d;
+}
+.navbar-dark .navbar-nav .nav-link{
+  color: white;
+}
+.dropdown-menu{
+      background: #35424a;
+    border: none;
+}
+.dropdown-item{
+ color:  white;
+}
+.dropdown-item:hover{
+  color: white;
+  text-decoration: none;
+  background-color: #e8491d;
+}
+.footer-classic{
+  background: #35424a;
+}
+
+ .card-img-overlay .btn-lg{
+
+  position: absolute;
+    bottom: 10px;
+    left: 42%;
+  }
+.fs-18{
+  font-size: 18px;
+}
+
+#navbar {
+  overflow: hidden;
+}
+
+
+/* The sticky class is added to the navbar with JS when it reaches its scroll position */
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 9999;
+}
+.login{
+      display: block;
+    padding-right: 19px;
+    z-index: 9999999999;
+}
+.modal-content .h4{
+position: absolute;
+}
+.image {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.overlay {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: #e8491d;
+  opacity: 0.9;
+  overflow: hidden;
+  width: 100%;
+  height: 0;
+  transition: .5s ease;
+}
+
+.card-body:hover .overlay {
+  height: 100%;
+}
+
+.text {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  width: 300px;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  /*text-align: center;*/
+}
+/*.{
+  color: #f4511e;
+  font-size: 50px;
+}*/
+/*@media screen and (max-width: 768px) {
+  .col-sm-4 {
+    text-align: center;
+    margin: 25px 0;
+  }
+}*/
+.fa-signal:before, .fa-globe:before{
+   color: #ff7400;
+  font-size: 200px;
+}
+.bg-grey{
+  background-color: #f0f3f8;
+}
+.center_logo{
+      position: absolute;
+    left: 30%;
+    top: 17%;
+}
+.feedback {
+  background-color : #e8491d;
+  color: white;
+  padding: 10px;
+  border-radius: 4px;
+  border-color: #46b8da;
+}
+
+#mybutton {
+  position: fixed;
+  bottom: -4px;
+  left: 10px;
+  z-index: 9999999;
+}
+/* Tablet and up */
+
+@media screen and (min-width: 768px) {
+  .carousel-inner .active,
+  .carousel-inner .active+.carousel-item {
+    display: block;
+  }
+  .carousel-inner .carousel-item.active:not(.carousel-item-right):not(.carousel-item-left),
+  .carousel-inner .carousel-item.active:not(.carousel-item-right):not(.carousel-item-left)+.carousel-item {
+    -webkit-transition: none;
+    transition: none;
+  }
+  .carousel-inner .carousel-item-next,
+  .carousel-inner .carousel-item-prev {
+    position: relative;
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+  }
+  .carousel-inner .active.carousel-item+.carousel-item+.carousel-item+.carousel-item {
+    position: absolute;
+    top: 0;
+    right: -50%;
+    z-index: -1;
+    display: block;
+    visibility: visible;
+  }
+  /* left or forward direction */
+  .active.carousel-item-left+.carousel-item-next.carousel-item-left,
+  .carousel-item-next.carousel-item-left+.carousel-item {
+    position: relative;
+    -webkit-transform: translate3d(-100%, 0, 0);
+    transform: translate3d(-100%, 0, 0);
+    visibility: visible;
+  }
+  /* farthest right hidden item must be abso position for animations */
+  .carousel-inner .carousel-item-prev.carousel-item-right {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    display: block;
+    visibility: visible;
+  }
+  /* right or prev direction */
+  .active.carousel-item-right+.carousel-item-prev.carousel-item-right,
+  .carousel-item-prev.carousel-item-right+.carousel-item {
+    position: relative;
+    -webkit-transform: translate3d(100%, 0, 0);
+    transform: translate3d(100%, 0, 0);
+    visibility: visible;
+    display: block;
+    visibility: visible;
+  }
+}
+
+/* Desktop and up */
+
+@media screen and (min-width: 992px) {
+  .carousel-inner .active,
+  .carousel-inner .active+.carousel-item,
+  .carousel-inner .active+.carousel-item+.carousel-item {
+    display: block;
+  }
+  .carousel-inner .carousel-item.active:not(.carousel-item-right):not(.carousel-item-left),
+  .carousel-inner .carousel-item.active:not(.carousel-item-right):not(.carousel-item-left)+.carousel-item,
+  .carousel-inner .carousel-item.active:not(.carousel-item-right):not(.carousel-item-left)+.carousel-item+.carousel-item {
+    -webkit-transition: none;
+    transition: none;
+  }
+  .carousel-inner .carousel-item-next,
+  .carousel-inner .carousel-item-prev {
+    position: relative;
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+  }
+  .carousel-inner .active.carousel-item+.carousel-item+.carousel-item+.carousel-item {
+    position: absolute;
+    top: 0;
+    right: -33.3333%;
+    z-index: -1;
+    display: block;
+    visibility: visible;
+  }
+  /* left or forward direction */
+  .active.carousel-item-left+.carousel-item-next.carousel-item-left,
+  .carousel-item-next.carousel-item-left+.carousel-item,
+  .carousel-item-next.carousel-item-left+.carousel-item+.carousel-item,
+  .carousel-item-next.carousel-item-left+.carousel-item+.carousel-item+.carousel-item {
+    position: relative;
+    -webkit-transform: translate3d(-100%, 0, 0);
+    transform: translate3d(-100%, 0, 0);
+    visibility: visible;
+  }
+  /* farthest right hidden item must be abso position for animations */
+  .carousel-inner .carousel-item-prev.carousel-item-right {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    display: block;
+    visibility: visible;
+  }
+  /* right or prev direction */
+  .active.carousel-item-right+.carousel-item-prev.carousel-item-right,
+  .carousel-item-prev.carousel-item-right+.carousel-item,
+  .carousel-item-prev.carousel-item-right+.carousel-item+.carousel-item,
+  .carousel-item-prev.carousel-item-right+.carousel-item+.carousel-item+.carousel-item {
+    position: relative;
+    -webkit-transform: translate3d(100%, 0, 0);
+    transform: translate3d(100%, 0, 0);
+    visibility: visible;
+    display: block;
+    visibility: visible;
+  }
+}
+/* Add some top padding to the page content to prevent sudden quick movement (as the navigation bar gets a new position at the top of the page (position:fixed and top:0) */
+/*.sticky + .content {
+  padding-top: 60px;
+}*/
+@media (min-width: 576px){
+.wider {
+    max-width: 700px;
+}
+}
+/* mobile view start */
+@media only screen and (max-width: 750px) {
+  body {
+    background-color: white;
+  }
+.submit-property-one .bg-2{
+    height: 500px;
+  }
+  .bg-black-50 .col-sm-12{
+    left: 21%;
+  }
+  .center_logo{
+    position: absolute;
+    left: 0;
+    top: 17%;
+  }
+  .carousel-inner{
+    height: auto;
+  }
+  .carousel-item{
+    margin-bottom: 10px;
+  }
+  .pl-125{
+    padding-left: 90px;
+  }
+  .topnav{
+    padding-top: 0;
+  }
+  .form-inline{
+    top: 8%;
+  }
+  .top-header .nav-item {
+    margin-bottom: 5px;
+  }
+}
+/* mobile view end */
+
+
